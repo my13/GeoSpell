@@ -1,0 +1,95 @@
+body{
+    background: url(../img/background_.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #DDDDDD;
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    color: #312c32;
+    font-size: 30px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.hd_cont{
+    display: none;
+    font-size: 25px;
+    color: #312c32;
+    width: 500px;
+}
+
+.group_img {
+  display: none;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.group_img img {
+  width: 100%;
+  height: auto;
+}
+
+.outline{
+    display: none;
+    color: #daad86;
+}
+
+
+.colors{
+    color: #feffff;
+    color: #98dafc;
+    color: #daad86;
+    color: #312c32;
+}
+
+.pg_title{
+    color: #98dafc;
+    border-bottom: solid 2px #98dafc;
+    font-size: 35px;
+    text-align: right;
+
+}
+
+.pg_title_{
+    color: #daad86;
+    border-bottom: solid 2px #daad86;
+    font-size: 35px;
+    text-align: right;
+
+}
+
+.svan {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.svan_l{
+    display: none;
+    position: absolute;
+}
+
+.svan img {
+  width: 100%;
+  height: auto;
+}
+
+.reg_img {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.reg_img img {
+  width: 100%;
+  height: auto;
+}
+
+#vid_cont {width: 100%; height: 400px;}
+#Video,#Message {width: 100%; height: 100%;}
+#Message {text-shadow: 2px 2px 2px #000000; color:white; }
+#Message h1{font-size: 3em;color:#ffffff;text-align:center; padding:0.4em;}
